@@ -1,0 +1,79 @@
+<!Doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="kanika-raja.css">
+       <script src="https://maps.googleapis.com/maps/api/js"></script>
+
+        <script>
+          function initialize() {
+          var mapCanvas = document.getElementById('map');
+          var mapOptions = {
+            center: new google.maps.LatLng(40.8183685, -73.4547748),
+            zoom: 8,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+          }
+
+
+          var map = new google.maps.Map(mapCanvas, mapOptions)
+
+
+          var myLatLng = {lat: 40.8183685, lng:-73.4547748};
+          var marker = new google.maps.Marker({
+            position: myLatLng,
+            map: map,
+            title: 'Hello World!'
+          });
+        }
+        google.maps.event.addDomListener(window, 'load', initialize);
+
+        </script>
+    <title>
+      Wedding Events
+    </title>
+	</head>
+
+
+		<body>
+      <div id="content-wrapper">
+  			<h1> Kanika & Raja</h1>
+          <h2> April 16, 2016 </h2>
+      			<div class="navbar">
+              <a href="index.html">Welcome</a> 
+              <a href="ourstory.html">Our Story</a> 
+              <a href="events.html">Events</a> 
+              <a href="gallery.html">Gallery</a> 
+              <a href="guestbook.html">Contact</a> 
+            </div>
+
+              <div class="events">
+                <h3>WEDDING EVENTS!</h3>
+                <br>
+                  <div class="venue">
+                    Wednesday April 6th, 2016
+                    <br>
+                    - Saagan Ceremony: 
+                     at the swan club @ 7;30pm
+                    <br>
+                    Saturday April 9th, 2016
+                    <br>
+                    - Mata ki chowki: 
+                    at Hanumanji Mandir
+                    <br>
+                    Saturday April 16, 2016 
+                    <br>
+                    - Wedding Venue: 
+                    Glen Cove Gurdwara @ 9:30am
+                    <br>
+                    - Reception: 
+                    Woodbury Country Club @7pm
+                  </div>
+              </div>
+                  <div class="clear"></div>
+                <br>
+                 <div id="map"></div>
+                  <div class="clear">
+                 
+
+        </div>
+     </body>
+</html>

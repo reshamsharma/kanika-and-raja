@@ -1,0 +1,88 @@
+body{
+	background-image:url("images/background1.jpg");
+}
+.navbar a{
+	
+	text-decoration: none;
+	padding:10px;
+	background: #d1ad6e;
+	font-size: 20px;
+	color: white;
+}
+a:hover{
+	text-decoration: underline;
+	color: navy;
+}
+.navbar{
+	text-align: center;
+
+}
+h1{
+	text-align: center;
+	font-size: 65px;
+	color: #CC3399;
+  font-family: "als script";
+}
+h2{
+	text-align: center;
+	font-family: "adine kirnberg";
+	color: navy;
+	font-size: 50px;
+}
+h3{
+	text-align: center;
+	font-family:"tahoma";
+	font-size:15px;
+
+}
+.welcome{
+	margin:50px;
+	text-align: center;
+}
+.ourstory{
+	text-align: center;
+	margin: 50px;
+	font-family: "georgia";
+}
+.k-r11{
+	margin: 0 auto;
+	display:block;
+	width:300px;
+}
+#content-wrapper{
+	margin:0 auto;
+	width:1000px;
+	background-color:white;
+	padding: 5px;
+
+}
+.clear {
+	clear: both;
+}
+.gallery{
+	display:block;
+	margin: 0 auto;
+}
+.events{
+	font-family: "georgia";
+	font-size:20px;
+	text-align: left;
+}
+#map {
+    width: 500px;
+    height: 400px;
+    background-color: #ccc;
+    display:block;
+    margin: 0 auto;
+    float: center;
+}
+img{
+	background-position: center;
+	height:500px;
+}
+.venue{
+	font-family: "alisandra demo";
+	text-align:center;
+	font-size: 25px;
+	color:orange;
+}
