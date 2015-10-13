@@ -1,13 +1,24 @@
 body{
 	background-image:url("images/background1.jpg");
+	margin-top:0;
+	padding-top:0;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+html{
+	margin-top:0;
+	padding-top:0;
+	margin-bottom: 0;
+	padding-bottom: 0;
 }
 .navbar a{
 	
 	text-decoration: none;
-	padding:10px;
+	padding:8px;
 	background: #d1ad6e;
-	font-size: 20px;
+	font-size: 18px;
 	color: white;
+	border-radius: 10px;
 }
 a:hover{
 	text-decoration: underline;
@@ -22,12 +33,17 @@ h1{
 	font-size: 65px;
 	color: #CC3399;
   font-family: "als script";
+  padding-top: 10px;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 h2{
+	margin-top: 0;
+	padding-bottom: 0;
 	text-align: center;
 	font-family: "adine kirnberg";
 	color: navy;
-	font-size: 50px;
+	font-size: 60px;
 }
 h3{
 	text-align: center;
@@ -35,54 +51,67 @@ h3{
 	font-size:15px;
 
 }
-.welcome{
-	margin:50px;
-	text-align: center;
-}
 .ourstory{
 	text-align: center;
 	margin: 50px;
 	font-family: "georgia";
 }
-.k-r11{
-	margin: 0 auto;
-	display:block;
-	width:300px;
-}
 #content-wrapper{
 	margin:0 auto;
 	width:1000px;
-	background-color:white;
-	padding: 5px;
-
+	background-color:#FFFFEB;
+	margin-top: -45px;
+	border-radius: 30px;
 }
 .clear {
 	clear: both;
 }
 .gallery{
-	display:block;
+	display:inline-block;
 	margin: 0 auto;
 }
 .events{
 	font-family: "georgia";
 	font-size:20px;
 	text-align: left;
+	display: inline-block;
+	width:45%;
 }
 #map {
-    width: 500px;
+    width: 49%;
     height: 400px;
     background-color: #ccc;
-    display:block;
+    display:inline-block;
     margin: 0 auto;
-    float: center;
-}
-img{
-	background-position: center;
-	height:500px;
+    float: right;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 .venue{
 	font-family: "alisandra demo";
 	text-align:center;
 	font-size: 25px;
 	color:orange;
+}
+.k-r10 img{
+	width:960px;
+	height:500px;
+}
+p{
+	font-family: georgia;
+	color:purple;
+	font-size: 20px;
+}
+.footer{
+	width:1000px;
+	height:100px;
+	background-color:#FFE0E0;
+	margin-bottom: 0px;
+	margin:0 auto;
+	text-align: center;
+	font-family: "tahoma";
+	font-size: 20px;
+	padding-top: 5px;
+	border-radius-bottom: 30px;
 }
